@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_playlist_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.monika.youtubetry1.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click"
+                android:clickable="true"
+                android:id="@+id/java">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/java"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_java" />
+
+                <TextView
+                    android:text="JAVA Tutorial For Beginners"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_java"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_java" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click1"
+                android:clickable="true"
+                android:id="@+id/java1">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/android_logo"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_oops" />
+
+                <TextView
+                    android:text="Android Tutorial For Beginners"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_oops"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/oops" />
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click2">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="137dp"
+                    android:src="@drawable/servlet"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_javatutorial" />
+
+                <TextView
+                    android:text="Java Servlet Tutorials"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_javatutorial"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/javatutorail" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click3">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mysql"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_java_interview" />
+
+                <TextView
+                    android:text="MySQL Tutorial"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_java_interview"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_interview" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click4">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="137dp"
+                    android:src="@drawable/jdbc"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_inner_class" />
+
+                <TextView
+                    android:text="Java Database Connectivity"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_inner_class" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click5">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/sql"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_sql" />
+
+                <TextView
+                    android:text="Sql Tutorials For Beginners"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_sql" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click6">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="137dp"
+                    android:src="@drawable/clang"
+                    android:id="@+id/img_c"
+                    android:layout_marginLeft="50dp"/>
+
+                <TextView
+                    android:text="C Tutorials For Beginners"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_c" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click7">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/java"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_colcn" />
+
+                <TextView
+                    android:text="Collection and Generics"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_colcn" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click8">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="137dp"
+                    android:src="@drawable/multithreading"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_multi" />
+
+                <TextView
+                    android:text="Multithreading In Java With Lambda Expression"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_multi" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click9">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="137dp"
+                    android:src="@drawable/multithreading"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_sprg" />
+
+                <TextView
+                    android:text="Spring framework with Maven Tutorial"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_sprg" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click10">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/java"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_excp" />
+
+                <TextView
+                    android:text="Exception Handling In Java"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/excp" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:onClick="click11">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/spring_framework"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_springmvc" />
+
+                <TextView
+                    android:text="Spring MVC Tutorials"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/springmvc" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="click12"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/xml"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_xml" />
+
+                <TextView
+                    android:text="XML Tutorials For Beginners"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_xml" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="click13"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/java"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_inner" />
+
+                <TextView
+                    android:text="Inner Class In Java"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_inner" />
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="click14"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/java"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_enum" />
+
+                <TextView
+                    android:text="Enum In Java"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_enum" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="click15"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="137dp"
+                    android:src="@drawable/java"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_javanew" />
+
+                <TextView
+                    android:text="Java 8 New Features With Example"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_javanew" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="click16"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/rmi1"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_rmi" />
+
+                <TextView
+                    android:text="Remote Method Invocation"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_rmi" />
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="click17"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/i18n"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/img_i18n" />
+
+                <TextView
+                    android:text="Internationalization I18N In Java"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_below="@+id/img_inner_class"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/java_i18n" />
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
